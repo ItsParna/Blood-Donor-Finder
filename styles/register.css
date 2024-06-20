@@ -1,0 +1,45 @@
+
+.container2 {
+    width: 50%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #e10c0c;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    background-color: rgb(200, 0, 0);;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    opacity: 5;
+}
+.register-btn:active{
+    opacity: 0.4;
+}
+.login_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+  }
+  .login_link a {
+    color:  red;
+    text-decoration: none;
+  }
+  
+  .login_link a:hover{
+    text-decoration: underline;
+  }
+ 

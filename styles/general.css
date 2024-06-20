@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0e8e8;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: darkred;
+}
+
+button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-name{
+    padding-bottom: 15px;
+    
+}
+/*Footer*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content .socials li {
+    margin: 0 10px;
+}
+
+.footer-content .socials li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content .socials li a img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1); /* Inverts color to white for dark backgrounds */
+}
