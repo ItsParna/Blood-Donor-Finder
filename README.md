@@ -8,3 +8,10 @@ The Virtual Blood Donor Finder is a web-based application designed to connect bl
 - CSS
 - JS
 ## 📸 Screenshots
+<img src="Screenshots/Picture1.jpg" alt="workflow" width="70%">
+
+<img src="Screenshots/Picture2.jpg" alt="workflow" width="70%">
+
+<img src="Screenshots/Picture3.jpg" alt="workflow" width="70%">
+
+
